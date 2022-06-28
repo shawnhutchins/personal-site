@@ -17,8 +17,13 @@ header ul {
 header a {
   font-family: Garamond, serif;
   text-decoration: none;
+  color: white;
   list-style-type: none;
   justify-items: space-between;
+}
+
+nav {
+  background-color: rgb(78, 65, 59);
 }
 
 h2 {
