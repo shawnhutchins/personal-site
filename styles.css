@@ -9,13 +9,15 @@ h1, h2, h3, h4, h5, h6{
   font-family: Garamond, serif;
 }
 header ul {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 4rem 1rem 4rem;
+  
 }
 
 header a {
-  font-family: Garamond, serif;
+  font-family: 'Courier New', monospace;
   text-decoration: none;
   color: white;
   list-style-type: none;
@@ -23,7 +25,10 @@ header a {
 }
 
 nav {
-  background-color: rgb(78, 65, 59);
+  background-color: #2596be;
+  border-color: black;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
 }
 
 h2 {
@@ -39,12 +44,17 @@ main {
   justify-content: center;
 }
 
-.center-text {
-  text-align: center;
+.main-content {
+  max-width: 40rem;
 }
 
-.podcasts {
-  max-width: 40rem;
+.banner {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.center-text {
+  text-align: center;
 }
 
 .podcast-icon {
